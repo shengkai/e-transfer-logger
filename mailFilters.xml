@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+	<id>tag:mail.google.com,2008:filters:z0000001732809943472*0124378731728212027</id>
+	<updated>2024-11-28T16:11:41Z</updated>
+	<author>
+		<name>Rental Canada</name>
+		<email>rentalcanada2021@gmail.com</email>
+	</author>
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<id>tag:mail.google.com,2008:filter:z0000001732809943472*0124378731728212027</id>
+		<updated>2024-11-28T16:11:41Z</updated>
+		<content></content>
+		<apps:property name='from' value='notify@payments.interac.ca OR catch@payments.interac.ca'/>
+		<apps:property name='subject' value='&quot;INTERAC e-Transfer:&quot;'/>
+		<apps:property name='hasTheWord' value='&quot;and the money has been automatically deposited into your bank account&quot; OR &quot;Your funds have been automatically deposited&quot;'/>
+		<apps:property name='label' value='Deposited'/>
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+</feed>
